@@ -53,7 +53,13 @@ button {
 
 .header {
 }
+.header-container {
+  display: flex;
+  align-items: center;
+}
 .header-navigation {
+  display: flex;
+  align-items: center;
 }
 .header-logo {
   font-family: "Raleway", sans-serif;
@@ -63,6 +69,7 @@ button {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  display: flex;
 }
 .header-logo-span {
   color: #2e2f42;
@@ -70,6 +77,10 @@ button {
 .header-menu {
   padding-top: 24px;
   padding-bottom: 24px;
+  display: flex;
+  margin-left: 76px;
+  justify-content: space-between;
+  gap: 40px;
 }
 .header-menu-item {
 }
@@ -88,6 +99,11 @@ button {
   font-style: normal;
 }
 .header-contacts {
+  display: flex;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  margin-left: 332px;
+  gap: 40px;
 }
 .header-contacts-link {
   font-weight: 400;
@@ -102,7 +118,11 @@ button {
 }
 /*---------------HERO--------------- */
 .hero {
+  padding-bottom: 120px;
+}
+.hero-container {
   background-color: var(--title-color);
+  padding: 188px 292px;
 }
 .hero-title {
   font-weight: 700;
@@ -111,6 +131,9 @@ button {
   letter-spacing: 0.02em;
   text-align: center;
   color: #ffffff;
+  max-width: 496px;
+  margin: 0 auto;
+  margin-bottom: 48px;
 }
 .hero-btn {
   font-family: inherit;
@@ -120,7 +143,14 @@ button {
   letter-spacing: 0.04em;
   color: #ffffff;
   background-color: #4d5ae5;
+  border: none;
   cursor: pointer;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  padding: 16px 32px;
+  margin: 0 auto;
+  margin-top: 48px;
 }
 .hero-btn:hover,
 .hero-btn:focus {
@@ -128,10 +158,15 @@ button {
 }
 /*---------------BENEFITS--------------- */
 .benefits {
+  padding-bottom: 120px;
 }
 .benefits-list {
+  display: flex;
+  gap: 24px;
 }
 .benefits-item {
+  width: calc((100% - 3 * 24px) / 4);
+  padding-top: 120px;
 }
 .benefits-subtitle {
   font-weight: 500;
@@ -146,13 +181,7 @@ button {
   letter-spacing: 0.02em;
   color: var(--text-color);
 }
-/*---------------PRODUCTS--------------- */
-.products-title {
-}
-.products-list {
-}
-.products-item {
-}
+
 /*---------------TEAM--------------- */
 .team-section {
   background-color: #f4f4fd;
@@ -165,13 +194,19 @@ button {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--title-color);
+  padding-top: 120px;
+  margin-bottom: 72px;
 }
 .team-list {
+  padding-bottom: 120px;
+  display: flex;
+  gap: 24px;
 }
 .list {
 }
 .team-list-item {
   background-color: #ffffff;
+  margin-bottom: 32px;
 }
 .team-img {
 }
@@ -182,6 +217,7 @@ button {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--title-color);
+  padding-top: 32px;
 }
 .team-text {
   font-size: 16px;
@@ -205,6 +241,48 @@ button {
 }
 .products-item {
 }
+/*---------------PORTFOLIO--------------- */
+.portfolio-main-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--title-color);
+  margin-top: 120px;
+  margin-bottom: 72px;
+  margin-top: 120px;
+}
+
+.portfolio {
+  display: flex;
+  flex-wrap: wrap;
+}
+.list {
+  row-gap: 24px;
+  column-gap: 48px;
+  margin-bottom: 120px;
+}
+.portfolio-item {
+  margin-bottom: 32px;
+  width: calc((100% - 2 * 24px) / 3);
+}
+.portfolio-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--title-color);
+}
+.portfolio-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+  padding-bottom: 32px;
+}
+
 /*---------------FOOTER--------------- */
 .footer {
   background-color: var(--title-color);
@@ -228,39 +306,4 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-}
-/*---------------PORTFOLIO--------------- */
-.portfolio-btn {
-  font-family: inherit;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: var(--accent-color);
-  background-color: var(--btn-color);
-  cursor: pointer;
-}
-.portfolio-btn:hover,
-.portfolio-btn:focus {
-  color: #ffffff;
-  background-color: #404bbf;
-}
-.portfolio {
-}
-.list {
-}
-.portfolio-item {
-}
-.portfolio-title {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--title-color);
-}
-.portfolio-text {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--text-color);
 }
