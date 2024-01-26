@@ -34,6 +34,9 @@ a {
 button {
   cursor: pointer;
 }
+img {
+  display: block;
+}
 .container {
   width: 100%;
   max-width: 1158px;
@@ -52,6 +55,7 @@ button {
 /*---------------HEADER--------------- */
 
 .header {
+  border-bottom: 1px solid #e7e9fc;
 }
 .header-container {
   display: flex;
@@ -70,6 +74,7 @@ button {
   text-transform: uppercase;
   color: #4d5ae5;
   display: flex;
+  margin-right: 76px;
 }
 .header-logo-span {
   color: #2e2f42;
