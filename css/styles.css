@@ -231,6 +231,9 @@ img {
 }
 .team-img {
 }
+.employee-name {
+  padding: 32px 0;
+}
 .team-title {
   font-weight: 500;
   font-size: 20px;
@@ -239,6 +242,7 @@ img {
   letter-spacing: 0.02em;
   color: var(--title-color);
   padding-top: 32px;
+  margin-bottom: 8px;
 }
 .team-text {
   font-size: 16px;
