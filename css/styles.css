@@ -124,11 +124,10 @@ img {
 }
 /*---------------HERO--------------- */
 .hero {
-  padding-bottom: 120px;
+  padding: 188px 0;
 }
 .hero-container {
   background-color: var(--title-color);
-  padding: 188px 0;
 }
 .hero-title {
   font-weight: 700;
@@ -154,7 +153,6 @@ img {
   cursor: pointer;
   border-radius: 4px;
   display: block;
-  display: flex;
   align-items: center;
   padding: 16px 32px;
   margin: 0 auto;
