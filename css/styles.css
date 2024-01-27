@@ -47,6 +47,7 @@ img {
 
 .link {
   text-decoration: none;
+  white-space: nowrap;
 }
 .list {
   list-style: none;
@@ -85,7 +86,6 @@ img {
   justify-content: space-between;
   gap: 40px;
   padding: 24px 0;
-  padding: 24px 0 24p;
 }
 .header-menu-item {
   gap: 40px;
@@ -110,6 +110,7 @@ img {
   margin-bottom: 24px;
   margin-left: 332px;
   gap: 40px;
+  padding: 24px 0;
 }
 .header-contacts-link {
   font-weight: 400;
@@ -125,9 +126,9 @@ img {
 /*---------------HERO--------------- */
 .hero {
   padding: 188px 0;
+  background-color: var(--title-color);
 }
 .hero-container {
-  background-color: var(--title-color);
 }
 .hero-title {
   font-weight: 700;
@@ -243,7 +244,6 @@ img {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--title-color);
-  padding-top: 32px;
   margin-bottom: 8px;
 }
 .team-text {
@@ -292,7 +292,6 @@ img {
   column-gap: 48px;
 }
 .list {
-  margin-bottom: 120px;
 }
 .portfolio-item {
   width: calc((100% - 2 * 24px) / 3);
