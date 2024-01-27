@@ -85,7 +85,6 @@ img {
   margin-left: 76px;
   justify-content: space-between;
   gap: 40px;
-  padding: 24px 0;
 }
 .header-menu-item {
   gap: 40px;
@@ -96,6 +95,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--title-color);
+  padding: 24px 0;
 }
 .header-menu-link:hover,
 .header-menu-link:focus {
@@ -110,7 +110,6 @@ img {
   margin-bottom: 24px;
   margin-left: 332px;
   gap: 40px;
-  padding: 24px 0;
 }
 .header-contacts-link {
   font-weight: 400;
@@ -118,6 +117,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--text-color);
+  padding: 24px 0;
 }
 .header-contacts-link:hover,
 .header-contacts-link:focus {
