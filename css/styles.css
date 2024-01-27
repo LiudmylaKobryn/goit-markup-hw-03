@@ -287,6 +287,8 @@ img {
 .portfolio {
   display: flex;
   flex-wrap: wrap;
+}
+.portfolio-link {
   row-gap: 24px;
   column-gap: 48px;
 }
