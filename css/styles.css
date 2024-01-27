@@ -170,7 +170,7 @@ img {
   position: absolute;
   width: 1px;
   height: 1px;
-  margin: -1px;
+  margin-bottom: 8px;
   border: 0;
   padding: 0;
 
@@ -186,7 +186,6 @@ img {
 .benefits-item {
   width: calc((100% - 3 * 24px) / 4);
   padding-top: 120px;
-  gap: 24px;
 }
 .benefits-subtitle {
   font-weight: 500;
@@ -205,6 +204,7 @@ img {
 /*---------------TEAM--------------- */
 .team-section {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 .team {
   font-weight: 700;
@@ -227,6 +227,7 @@ img {
 .team-list-item {
   background-color: #ffffff;
   margin-bottom: 32px;
+  border-radius: 0px 0px 4px 4px;
 }
 .team-img {
 }
