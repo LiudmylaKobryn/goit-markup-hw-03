@@ -164,7 +164,20 @@ img {
 }
 /*---------------BENEFITS--------------- */
 .benefits {
-  padding-bottom: 120px;
+  padding: 120px 0;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 .benefits-list {
   display: flex;
@@ -173,6 +186,7 @@ img {
 .benefits-item {
   width: calc((100% - 3 * 24px) / 4);
   padding-top: 120px;
+  gap: 24px;
 }
 .benefits-subtitle {
   font-weight: 500;
