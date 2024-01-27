@@ -85,11 +85,7 @@ img {
   justify-content: space-between;
   gap: 40px;
   padding: 24px 0;
-  /*test*/
-  padding: 24px 0 24px;
-  /* OR */
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding: 24px 0 24p;
 }
 .header-menu-item {
   gap: 40px;
