@@ -165,6 +165,9 @@ img {
 .benefits {
   padding: 120px 0;
 }
+.benefits-title {
+  margin-bottom: 8px;
+}
 .visually-hidden {
   position: absolute;
   width: 1px;
