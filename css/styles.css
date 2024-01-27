@@ -84,10 +84,10 @@ img {
   margin-left: 76px;
   justify-content: space-between;
   gap: 40px;
+  padding: 24px 0;
 }
 .header-menu-item {
   gap: 40px;
-  padding: 24px 0;
 }
 .header-menu-link {
   font-weight: 500;
