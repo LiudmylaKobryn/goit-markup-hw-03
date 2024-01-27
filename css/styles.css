@@ -128,7 +128,7 @@ img {
 }
 .hero-container {
   background-color: var(--title-color);
-  padding: 188px 292px;
+  padding: 188px 0;
 }
 .hero-title {
   font-weight: 700;
@@ -149,9 +149,11 @@ img {
   letter-spacing: 0.04em;
   color: #ffffff;
   background-color: #4d5ae5;
+  min-width: 169px;
   border: none;
   cursor: pointer;
   border-radius: 4px;
+  display: block;
   display: flex;
   align-items: center;
   padding: 16px 32px;
